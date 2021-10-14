@@ -15,6 +15,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
     
     private AuthenticationManager authenticationManager;
     
+    
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
                 .withClient("user")
