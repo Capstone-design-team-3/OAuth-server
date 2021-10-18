@@ -1,4 +1,4 @@
-package com.oauth.resourceserver.service;
+package com.oauth.authserver.service;
 
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
